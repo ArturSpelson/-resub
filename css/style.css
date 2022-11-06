@@ -21,7 +21,7 @@
     width: 100%;
     height: 80px;
     display: block;
-    background-color: rgb(184, 184, 220);
+    background-color:#B39CD0;
   }
 
   .inner-header {
@@ -76,33 +76,33 @@
     height: 100%;
     color: white;
     font-size: 20px;
- 
   }
-
+  /*section1 bellow*/
   .sock-outer {
-    height: 500px;
+    height: 410px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative; 
+    background-color: rgb(208, 187, 228);
   }
-    /*section bellow*/
+   
   .sock-img{
-    height: 500px;
+    margin: 0px;
+    height: 400px;
     width: 100%;
-    background: url("https://img.freepik.com/free-photo/new-socks-isolated-white_1203-2879.jpg?w=740&t=st=1663008669~exp=1663009269~hmac=7a071496af317214ae5bc49e31400fc7f10348f01d8ea076c4a346d3433dc0d7") no-repeat center center;
-  /* this one is to make animation move forwards*/
-  animation-name: sock-zoom;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  background-size: absolute;
-  right: 20%;
-}
-
-
+    
+    background: url("https://img.freepik.com/free-photo/new-socks-isolated-white_1203-2879.jpg?w=740&t=st=1663008669~exp=1663009269~hmac=7a071496af317214ae5bc49e31400fc7f10348f01d8ea076c4a346d3433dc0d7") repeat center center;
+    /* this one is to make animation move forwards*/
+    animation-name: sock-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    background-size: absolute;
+    right: 20%; 
+  }
 
 @keyframes sock-zoom {
   from {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
   to {
     transform: scale(1);
@@ -111,30 +111,44 @@
 
 .cover-text, .cover-text h2 {
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  animation-name: sock-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-size: absolute;
+  right: 20%;
 }
 
 .cover-text {
-  font-size: 140%;
+  margin-right: 30px;
+  font-size: 80%;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  
 
-  width:600px;
-  height: 100px;
+  width: 500px;
+  height: 50px;
 
-  padding-top: 30px;
+  padding-top: 10px;
   padding-left: 10px;
 
-  /*background-color: rgba(10, 81, 236, 0.774);*/
-
-  bottom: 30px;
+  bottom: 50px;
   right: 150px;
 
   position: absolute;
   /* From https://css.glass */
-  background: rgba(216, 3, 3, 0.46);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(0, 201, 167, 0.86);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.8px);
+-webkit-backdrop-filter: blur(2.8px);
+border: 1px solid rgba(0, 201, 167, 1);
+}
+
+.reasons {
+  height: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) repeat center center;
 }
