@@ -9,7 +9,6 @@
 
   body {
     font-family: 'Roboto', sans-serif;
-    color:rgb(0, 0, 0);
   }
 
   h1 {
@@ -77,9 +76,9 @@
     color: white;
     font-size: 20px;
   }
-  /*section1 bellow*/
+  section1 bellow
   .sock-outer {
-    height: 410px;
+    height: 390px;
     width: 100%;
     overflow: hidden;
     position: relative; 
@@ -88,7 +87,7 @@
    
   .sock-img{
     margin: 0px;
-    height: 400px;
+    height: 500px;
     width: 100%;
     
     background: url("https://img.freepik.com/free-photo/new-socks-isolated-white_1203-2879.jpg?w=740&t=st=1663008669~exp=1663009269~hmac=7a071496af317214ae5bc49e31400fc7f10348f01d8ea076c4a346d3433dc0d7") repeat center center;
@@ -126,29 +125,82 @@
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   
-
   width: 500px;
   height: 50px;
 
   padding-top: 10px;
   padding-left: 10px;
 
-  bottom: 50px;
+  bottom: 300px;
   right: 150px;
 
   position: absolute;
   /* From https://css.glass */
   background: rgba(0, 201, 167, 0.86);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.8px);
--webkit-backdrop-filter: blur(2.8px);
-border: 1px solid rgba(0, 201, 167, 1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 1px solid rgba(0, 201, 167, 1);
 }
-
+/*section2 bellow*/
 .reasons {
   height: 1000px;
   width: 100%;
-  margin: 0 auto;
-  background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) repeat center center;
+  margin-top: 0 auto;
+  background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) no-repeat center center;
+  background-size: 120%;
+  position: relative;
 }
+
+.yellow-sock {
+  height: 800px;
+  width: 600px;
+  border: 0px;
+  object-fit: contain;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  background: url(https://images.unsplash.com/photo-1640025867572-f6b3a8410c81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80) no-repeat center center;
+}
+
+.title {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px 0;
+  text-align: center;
+  left: 20px;
+  /* From https://css.glass */
+  background: rgba(255, 128, 102, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 128, 102, 0.27);
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  color: white;
+}
+
+.why {
+  display: block;
+  margin: 55px auto;
+  width: 40%;
+}
+
+.why-headnig {
+  /* From https://css.glass */
+  background: rgba(255, 128, 102, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 128, 102, 0.27);
+  display: block;
+  margin: 30px auto;
+  width: 70%;
+  color: white;
+  text-align: center;
+  top: 5px;
+  
