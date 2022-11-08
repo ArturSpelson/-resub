@@ -90,7 +90,7 @@
     height: 500px;
     width: 100%;
     
-    background-image: url('assets/images/four-socks.webp') repeat center center;
+    background-image: url (assets/images/four-socks.webp) repeat center center;
     /* this one is to make animation move forwards*/
     animation-name: sock-zoom;
     animation-duration: 4s;
