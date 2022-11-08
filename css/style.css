@@ -145,22 +145,24 @@
 }
 /*section2 bellow*/
 .reasons {
-  height: 1000px;
+  height: 600px;
   width: 100%;
   margin-top: 0 auto;
   background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) no-repeat center center;
-  background-size: 120%;
+  background-size: 130%;
   position: relative;
 }
 
 .yellow-sock {
-  height: 800px;
+  height: 500px;
   width: 600px;
   border: 0px;
   object-fit: contain;
   position: absolute;
   top: 20px;
   left: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   background: url(https://images.unsplash.com/photo-1640025867572-f6b3a8410c81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80) no-repeat center center;
 }
 
@@ -188,7 +190,12 @@
   margin: 55px auto;
   width: 40%;
 }
-
+hr {
+  border-top: 2px solid #936C00;
+  width: 80%;
+  margin: 5px 0;
+  box-align: middle;
+}
 .why-headnig {
   /* From https://css.glass */
   background: rgba(255, 128, 102, 0.39);
@@ -203,4 +210,30 @@
   color: white;
   text-align: center;
   top: 5px;
-  
+}
+
+.gallery {
+  width: 50%;
+
+  display: grid;
+  grid:
+    "p1 p2" 1fr
+    "p3 p4" 1fr
+    "p5 p6" 1fr
+    "p7 p8" 1fr
+    "p9 p10" 1fr
+    / 0fr 0fr;
+  gap: 1px 2px;
+}
+
+.p1 { grid-area: p1; }
+.p2 { grid-area: p2; }
+.p3 { grid-area: p3; }
+.p4 { grid-area: p4; }
+.p5 { grid-area: p5; }
+.p6 { grid-area: p6; }
+.p7 { grid-area: p7; }
+.p8 { grid-area: p8; }
+.p9 { grid-area: p9; }
+.p10 { grid-area: p10; }
+
