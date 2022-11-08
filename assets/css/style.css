@@ -90,7 +90,7 @@
     height: 500px;
     width: 100%;
     
-    background: url("https://img.freepik.com/free-photo/new-socks-isolated-white_1203-2879.jpg?w=740&t=st=1663008669~exp=1663009269~hmac=7a071496af317214ae5bc49e31400fc7f10348f01d8ea076c4a346d3433dc0d7") repeat center center;
+    background-image: url('assets/images/four-socks.webp') repeat center center;
     /* this one is to make animation move forwards*/
     animation-name: sock-zoom;
     animation-duration: 4s;
