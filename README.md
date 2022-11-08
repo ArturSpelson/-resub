@@ -1,3 +1,3 @@
 # lost sock
 
-[Live webpage](https://arturspelson.github.io/-resub/)
+[def]: https://arturspelson.github.io/-resub/
