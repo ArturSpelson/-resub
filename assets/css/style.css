@@ -270,3 +270,26 @@ hr {
   align-items: center;
   justify-content: center;
 }
+
+.logo-box h1 {
+  background: rgba(255, 128, 102, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.2px);
+  -webkit-backdrop-filter: blur(10.2px);
+  border: 1px solid rgba(255, 128, 102, 0.27);
+
+  color: white;
+  height: 10%;
+  width: 200px;
+  display: block;
+
+  font-size: 20px;
+  float: left 50px;
+  position: top middle;
+  font-weight: 150;
+}
+
+.logo-box h1 span {
+  font-weight: 1000;
+}
