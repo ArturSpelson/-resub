@@ -263,9 +263,9 @@ hr {
 
   font-size: 20px;
   float: left 50px;
-  position: top middle;
+  
   font-weight: 150;
-  position: fixed;
+  position: relative;
   top: 200px;
   left: 400px;
 }
@@ -283,10 +283,21 @@ hr {
   border: 1px solid rgba(255, 128, 102, 0.27);
   display: block;
   margin: 10 auto;
-  width: 70%;
+  width: 40%;
   color: white;
-  text-align: center;
+  text-align: match-parent;
   top: 5px;
+  position: relative;
+  top: 250px;
+  left: 30%;
+}
+
+label {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+  margin: .4rem;
 }
 
 .tellus {
