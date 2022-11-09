@@ -171,6 +171,8 @@
   box-sizing: border-box;
   padding: 20px 0;
   text-align: center;
+  position: relative;
+  top: 25px;
   left: 20px;
   /* From https://css.glass */
   background: rgba(255, 128, 102, 0.39);
