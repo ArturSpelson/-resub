@@ -302,7 +302,6 @@ input {
     margin: .4rem;
 }
 
-
 .tellus {
   width: 50%;
   height: 60px;
@@ -311,4 +310,10 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.social-networks {
+  position: fixed;
+  bottom: auto;
+  width: fit-content;
 }
