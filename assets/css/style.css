@@ -265,7 +265,7 @@ hr {
   float: left 50px;
   position: top middle;
   font-weight: 150;
-  position: relative;
+  position: fixed;
   top: 200px;
   left: 400px;
 }
