@@ -254,9 +254,14 @@ hr {
   -webkit-backdrop-filter: blur(10.2px);
   border: 1px solid rgba(255, 128, 102, 0.27);
   display: block;
-  margin: 0px auto;
+  margin: 10 auto;
   width: 70%;
   color: white;
   text-align: center;
   top: 5px;
+}
+
+.tellus {
+  margin-top: 10%;
+  text-align: center;
 }
