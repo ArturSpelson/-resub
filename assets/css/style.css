@@ -395,4 +395,37 @@ input {
     width: 40%;
 }
 
+.sign-bground {
+  height: 1201px;
+  width: 100vw;
+  margin-top: 0 auto;
+  background-size: 157%;
 }
+
+}
+
+@media screen and (max-width: 768px) {
+  .reasons {
+    background-size: 230%;
+  }
+
+  .inner-gallery {
+    width: 124vw;
+    position: relative;
+    top: 11px;
+    left: 20%;
+    column-count: 1;
+    column-gap: 1px;
+}
+
+.sign-bground {
+  height: 1090px;
+  width: 100vw;
+  background-size: 210%;
+}
+
+}
+
+@media screen and (max-width: 768px)
+
+
