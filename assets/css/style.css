@@ -426,6 +426,61 @@ input {
 
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
+
+.header {
+    width: 156%;
+    height: 7em;
+    margin: 0px auto;
+}
+
+.inner-header {
+  width: 726px;
+  height: 101%;
+  display: block;
+  margin: 0px auto;
+}
+
+.logo, .menu {
+  line-height: 60px;
+}
+
+.menu {
+  float: right;
+  height: 100%;
+  display: table;
+  font-size: 82%;
+  letter-spacing: 0px;
+}
+
+.sock-outer {
+  height: 418px;
+  width: 131vw;
+}
+
+.sock-img {
+  height: 402px;
+  width: 159vw;
+}
+
+.cover-text {
+  margin-right: 0px;
+  font-size: 76%;
+  width: 297px;
+  height: 72px;
+  padding-top: 10px;
+  padding-left: -5px;
+  bottom: 111px;
+  right: 53px;
+}
+
+.gallery {
+  height: 2100px;
+  width: 0vw;
+  background-size: 413%;
+}
+}
+
+
 
 
