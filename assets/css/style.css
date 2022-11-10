@@ -145,11 +145,12 @@
 }
 /*section2 bellow*/
 .reasons {
-  height: 600px;
+  height: 700px;
   width: 100%;
   margin-top: 0 auto;
   background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) no-repeat center center;
   background-size: 130%;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -215,29 +216,21 @@ hr {
 }
 
 .gallery {
-  width: 50%;
-
-  display: grid;
-  grid:
-    "p1 p2" 1fr
-    "p3 p4" 1fr
-    "p5 p6" 1fr
-    "p7 p8" 1fr
-    "p9 p10" 1fr
-    / 0fr 0fr;
-  gap: 1px 2px;
+  height: 1000px;
+  width: 100%;
+  margin-top: 0 auto;
+  background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) no-repeat center center;
+  background-size: 130%;
+  background-attachment: fixed;
+  position: relative;
 }
 
-.p1 { grid-area: p1; }
-.p2 { grid-area: p2; }
-.p3 { grid-area: p3; }
-.p4 { grid-area: p4; }
-.p5 { grid-area: p5; }
-.p6 { grid-area: p6; }
-.p7 { grid-area: p7; }
-.p8 { grid-area: p8; }
-.p9 { grid-area: p9; }
-.p10 { grid-area: p10; }
+.inner-gallery {
+  width: 100%;
+  position: inherit;
+  top: 10px;
+  left: 20%;
+}
 
 .sign-bground {
   height: 600px;
@@ -245,6 +238,7 @@ hr {
   margin-top: 0 auto;
   background: url(https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80) no-repeat center center;
   background-size: 130%;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -268,7 +262,7 @@ hr {
   
   font-weight: 150;
   position: relative;
-  top: 100px;
+  top: 50px;
   left: 400px;
 }
 
@@ -290,7 +284,7 @@ hr {
   text-align: match-parent;
   top: 5px;
   position: relative;
-  top: 110px;
+  top: 60px;
   left: 30%;
 }
 
@@ -312,17 +306,41 @@ input {
   justify-content: center;
 }
 
-.social-networks {
+/*.social-networks {
   background-color: rgb(208, 187, 228);
   position: fixed;
   bottom: 0%;
-  width: 100%;
-  height: 40px;
-  text-align: center;
-  /*display: inline;*/
+  width: 100vw;
+  height: 100px;
+  text-align: center; 
 }
 
 .social-networks li {
   display: inline;
 }
 
+
+.social-networks i {
+  color: black;
+  font-size: 100%;
+  margin: 0.01%;
+  padding: 5px 0;
+  top: 30px;
+  
+}*/
+
+.footer {
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: rgb(208, 187, 228);
+}
+
+.inner-footer {
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
