@@ -375,5 +375,24 @@ input {
   right: 125px;
 }
 
+.yellow-sock {
+    height: 545px;
+    width: 470px;
+    border: 0px;
+    object-fit: contain;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.title {
+  padding: 10px 0;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    left: 31px;
+    margin: 0px auto;
+    width: 40%;
+}
 
 }
